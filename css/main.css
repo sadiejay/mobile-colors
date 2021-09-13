@@ -62,7 +62,10 @@ footer {
   header {
     background-color: wheat;
   }
+.col-3 {
+  width: 50%;
 
+}
   #column-1 {
     background-color: Bisque;
   }
@@ -73,6 +76,7 @@ footer {
 
   #column-3 {
     background-color: peru;
+    width: 100%;
   }
 
   footer {
@@ -86,6 +90,10 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: palevioletred;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
 
   #column-1 {
